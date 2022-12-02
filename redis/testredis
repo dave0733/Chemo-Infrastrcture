@@ -1,7 +1,0 @@
-sudo redis-cli;
-> ping
-PONG
->set test "It's working"
-OK
-> get test
-"It's working"
