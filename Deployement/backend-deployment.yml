@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: aac-midtier
+  labels:
+    name: aac-midtier
+spec:
+  selector:
+    matchLabels:
+      name: aac-midtier
+  template:
+    metadata:
+      labels:
+        name: aac-midtier
+    spec:
+      containers:
+        - name: aac-midtier
+          image: americancancersociety/alliedagainstcancerbackend:v1
+          imagePullPolicy: Never
+          ports:
+            - containerPort: 3000

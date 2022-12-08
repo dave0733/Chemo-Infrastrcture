@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: aac-website
+  labels:
+    name: aac-website
+spec:
+  selector:
+    matchLabels:
+      name: aac-website
+  template:
+    metadata:
+      labels:
+        name: aac-website
+    spec:
+      containers:
+        - name: aac-website
+          image: jamescordova/aac-website:v1
+          imagePullPolicy: Never
+          ports:
+            - containerPort: 80
