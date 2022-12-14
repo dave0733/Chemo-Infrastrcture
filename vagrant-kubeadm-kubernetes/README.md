@@ -1,16 +1,6 @@
 
 # Vagrantfile and Scripts to Automate Kubernetes Setup using Kubeadm [Practice Environment for CKA/CKAD and CKS Exams]
 
-## Documentation
-
-Current k8s version for CKA, CKAD and CKS exam: 1.24
-
-Refer this link for documentation: https://devopscube.com/kubernetes-cluster-vagrant/
-
-## 🚀 CKA, CKAD, CKS or KCNA Coupon Codes
-
-If you are preparing for Prometheus Certification, CKA, CKAD, CKS, or KCNA exam, **save 50%** today using code **CYBER22CC** at https://kube.promo/latest. It is a limited-time offer. Or Check out [Linux Foundation coupon](https://scriptcrunch.com/linux-foundation-coupon/) page for the latest voucher codes.
-
 ## Prerequisites
 
 1. Working Vagrant setup
